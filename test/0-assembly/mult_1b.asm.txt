@@ -1,0 +1,8 @@
+lw $t2, 4($zero)
+lw $t3, 4($zero)
+nop
+mult $t2, $t3
+mflo $v0
+jr $zero
+
+comment: 7fffffff * 7fffffff = 0x3fffffff \ 00000001

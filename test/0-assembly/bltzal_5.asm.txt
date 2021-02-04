@@ -1,0 +1,9 @@
+addiu $t2, $zero, -10
+bltzal $t2, 3
+addiu $v0, $zero, 10
+jr $zero
+nop
+addiu $v0 $v0, 10
+jr $zero
+
+comment: branch delay slot

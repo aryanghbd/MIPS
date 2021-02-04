@@ -1,0 +1,7 @@
+lw $t2, 0($zero)        #contains 0xFFFFF003 (4294963203/-4093)
+nop
+sltiu $v0, $t2, 30,     
+jr $zero,
+
+
+comment:  FFFFF003 > 30

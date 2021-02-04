@@ -1,0 +1,10 @@
+jal 0xFC0000C       # code line 4, $ra=line 3
+nop
+jr $zero
+nop                 
+addiu $v0, $ra, 0
+jr $ra
+
+comment: jal test 2
+
+

@@ -1,0 +1,8 @@
+lw $t2, 20($zero)        #contains 0x0000ec5b (60507)
+nop
+sltiu $v0, $t2, 60530,
+jr $zero,
+
+
+comment: 0000ec5b < FFFFEC72
+

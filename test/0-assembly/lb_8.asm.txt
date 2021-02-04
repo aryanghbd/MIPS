@@ -1,0 +1,8 @@
+lw $t2, 40($zero)          # address contains 0xBFC00000
+nop
+lb $v0, 12($t2)             # offset to read address 0xBFC00008
+addiu $t3, $zero, 20,      # addiu is  0x23640014 
+jr $zero,
+
+
+comment: lb instr address

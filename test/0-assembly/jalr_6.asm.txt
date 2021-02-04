@@ -1,0 +1,12 @@
+addiu $t2, $zero, 20   #address contains addiu v0,t4,10 then halt
+jalr $t4, $t2
+nop
+jr $zero
+
+
+
+
+
+
+comment: jalr to data address
+

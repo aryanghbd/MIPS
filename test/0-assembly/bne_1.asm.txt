@@ -1,0 +1,13 @@
+lw $t2, 32($zero)
+lw $t3, 32($zero)
+nop
+bne $t2, $t3, 3
+nop
+jr $zero
+nop
+addiu $v0, $zero, 1
+jr $zero
+								
+
+comment: rs,rt are equal
+

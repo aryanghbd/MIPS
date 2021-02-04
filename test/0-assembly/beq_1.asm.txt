@@ -1,0 +1,13 @@
+lw $t2, 0($zero)
+lw $t3, 0($zero)
+nop
+beq $t2, $t3, 3
+nop
+jr $zero
+nop
+addiu $v0, $zero, 1
+jr $zero
+
+
+comment: branch condition met
+

@@ -1,0 +1,12 @@
+addiu $t2, $zero, 0
+nop
+bltzal $t2, 4
+nop
+addiu $v0, $ra, 0
+jr $zero
+nop
+addiu $v0, $ra, 1
+jr $zero								
+
+comment: rs=0
+

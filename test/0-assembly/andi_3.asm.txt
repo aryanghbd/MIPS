@@ -1,0 +1,8 @@
+lw $t2, 16($zero)
+nop
+andi $v0, $t2, 43690,
+jr $zero
+   
+
+
+comment: imm=AAAA

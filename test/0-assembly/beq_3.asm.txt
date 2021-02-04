@@ -1,0 +1,12 @@
+addiu $t2, $zero, 0
+addiu $t3, $zero, 0
+beq $t2, $t3, 3
+nop
+jr $zero
+nop
+addiu $v0, $zero, 1
+jr $zero
+
+
+comment: equal zeroes
+

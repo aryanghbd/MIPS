@@ -1,0 +1,8 @@
+lw $t2, 16($zero)
+nop
+ori $v0, $t2, 0xFFFF    
+jr $zero
+   
+
+
+comment: imm=FFFF

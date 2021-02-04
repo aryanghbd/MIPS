@@ -1,0 +1,11 @@
+lw $t3, 12($zero)
+nop
+and $v0, $t3, $zero,
+jr $zero
+
+
+
+comment: FFFFFFFF and 00000000
+
+
+

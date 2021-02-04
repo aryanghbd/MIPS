@@ -1,0 +1,8 @@
+lw $t2, 16($zero)
+nop
+xori $v0, $t2, 0     
+jr $zero
+   
+
+
+comment: imm=0

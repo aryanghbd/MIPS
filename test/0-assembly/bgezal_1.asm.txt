@@ -1,0 +1,16 @@
+nop
+nop
+lw $t2, 4($zero) 
+nop
+bgezal $t2, 4
+addiu $v0, $ra, 0
+nop
+jr $zero
+nop
+addiu $v0, $ra, 1
+jr $zero
+
+							
+
+comment: rs positive
+

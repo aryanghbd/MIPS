@@ -1,0 +1,9 @@
+lw $t3, 12($zero)
+nop
+xor $v0, $t3, $zero
+jr $zero
+
+
+
+comment: FFFFFFFF xor 00000000
+

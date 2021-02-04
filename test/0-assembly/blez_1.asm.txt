@@ -1,0 +1,13 @@
+lw $t2, 4($zero)
+nop
+blez $t2, 3
+nop
+jr $zero
+nop
+addiu $v0, $zero, 1
+jr $zero
+
+								
+
+comment: rs>0
+

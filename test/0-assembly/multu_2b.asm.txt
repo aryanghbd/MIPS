@@ -1,0 +1,8 @@
+lw $t2, 16($zero)
+lw $t3, 16($zero)
+nop
+multu $t2, $t3
+mflo $v0
+jr $zero
+
+comment: negative numbers multu

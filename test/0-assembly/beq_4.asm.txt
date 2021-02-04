@@ -1,0 +1,13 @@
+lw $t2, 8($zero)
+addiu $t3, $zero, 1
+beq $t2, $t3, 3
+nop
+jr $zero
+nop
+addiu $v0, $zero, 1
+jr $zero
+
+
+
+comment: postive and negative of same number
+

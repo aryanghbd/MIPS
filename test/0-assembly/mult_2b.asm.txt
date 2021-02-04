@@ -1,0 +1,8 @@
+lw $t2, 12($zero)
+lw $t3, 12($zero)
+nop
+mult $t2, $t3
+mflo $v0
+jr $zero
+
+comment: ffffffff*ffffffff=00000000 \ 00000001
